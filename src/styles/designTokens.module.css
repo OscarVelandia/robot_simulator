@@ -1,0 +1,32 @@
+/* designTokens.module.css */
+
+/* Colors */
+:root {
+  --color-background: #f0f0f5;
+  --color-panel-background: #fff;
+  --color-border: #ccc;
+  --color-primary: #4caf50;
+  --color-primary-hover: #45a049;
+  --color-text-primary: #333;
+  --color-text-secondary: #555;
+  --color-robot: lightblue;
+  --color-shadow: rgba(0, 0, 0, 0.2);
+  --color-shadow-light: rgba(0, 0, 0, 0.1);
+
+  /* Font */
+  --font-family: 'Arial', sans-serif;
+  --font-size-large: 1.5rem;
+  --font-size-medium: 1rem;
+  --font-size-small: 0.875rem;
+
+  /* Spacing */
+  --spacing-small: 5px;
+  --spacing-medium: 10px;
+  --spacing-large: 20px;
+  --spacing-xl: 40px;
+
+  /* Sizing */
+  --size-grid-item: 50px;
+  --size-border-radius: 8px;
+  --size-button-radius: 5px;
+}

@@ -1,0 +1,26 @@
+@import '../../../styles/designTokens.module.css';
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, var(--size-grid-item));
+  grid-gap: var(--spacing-small);
+  margin: var(--spacing-large) 0;
+  justify-content: center;
+}
+
+.gridItem {
+  width: var(--size-grid-item);
+  height: var(--size-grid-item);
+  background-color: white;
+  border: 1px solid var(--color-border);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.robot {
+  background-color: var(--color-robot);
+  border-radius: 10%;
+  font-size: var(--font-size-large);
+}

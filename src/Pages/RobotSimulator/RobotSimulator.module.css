@@ -1,0 +1,79 @@
+/* RobotSimulator.module.css */
+@import '../../styles/designTokens.module.css';
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: var(--spacing-large);
+  background-color: var(--color-background);
+}
+
+.leftPanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.rightPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: fit-content;
+  max-width: 38vw;
+  text-align: left;
+  background-color: var(--color-panel-background);
+  padding: var(--spacing-large);
+  border-radius: var(--size-border-radius);
+  box-shadow: 0 2px 4px var(--color-shadow-light);
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: var(--spacing-medium);
+  color: var(--color-text-primary);
+}
+
+.positionInfo {
+  list-style-type: none;
+  margin-top: var(--spacing-large);
+  font-size: var(--font-size-medium);
+  color: var(--color-text-primary);
+}
+
+.description {
+  margin-bottom: var(--spacing-large);
+  color: var(--color-text-secondary);
+}
+
+.descriptionList {
+  margin-left: 1rem;
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 0.5rem;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  background-color: var(--color-primary);
+  color: white;
+  padding: var(--spacing-medium) var(--spacing-large);
+  margin: var(--spacing-small) 0;
+  border: none;
+  border-radius: var(--size-button-radius);
+  cursor: pointer;
+  font-size: var(--font-size-medium);
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--color-primary-hover);
+}
